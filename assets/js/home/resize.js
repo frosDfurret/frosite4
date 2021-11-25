@@ -1,3 +1,6 @@
+//this is to make the sizing of stuff relative to the page height
+//cause, yeah
+
 document.getElementsByTagName('body')[0].style.padding = window.innerHeight / 10 + "px"
 var header1 = document.getElementsByTagName('h1');
 var homelink = document.getElementsByClassName('homelink');

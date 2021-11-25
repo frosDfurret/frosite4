@@ -19,6 +19,10 @@ body {
   text-decoration: none;
 }
 
+.homelink:hover {
+  cursor: pointer;
+}
+
 .hlcontent {
   float: left;
   padding-left: 10px;
