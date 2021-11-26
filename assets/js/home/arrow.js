@@ -1,7 +1,7 @@
 var homelink = document.getElementsByClassName('homelink');
 var hlarrow = document.getElementsByClassName('hlarrow');
 var hlcontent = document.getElementsByClassName('hlcontent');
-const links = ["https://www.example.org","https://ninja78900987.newgrounds.com"]
+const links = ["/projects.html","https://ninja78900987.newgrounds.com"]
 const hovers = ["look ma i did the it","Because the old grounds were too, old."]
 
 

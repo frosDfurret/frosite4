@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html {
+  background-color: black;
+}
+
+body {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: Outfit;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.projectbutton {
+  color: white;
+  text-decoration: none;
+  font-family: "Bebas Neue";
+  outline-color: white;
+  outline-style: solid;
+  text-shadow: 3px 3px black;
+  transition-property: font-size;
+  transition-duration: 0.5s;
+}
+
+.projectbutton:hover {
+  cursor: pointer;
+}

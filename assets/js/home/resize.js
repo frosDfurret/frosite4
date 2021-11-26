@@ -13,8 +13,8 @@ for (var i = 0; i < header1.length; i++) {
 }
 
 for (var i = 0; i < homelink.length; i++) {
-  homelink[i].style.fontSize = window.innerHeight / 16 + "px";
-  hlarrow[i].style.fontSize = window.innerHeight / 18 + "px";
+  homelink[i].style.fontSize = window.innerHeight / 19 + "px";
+  hlarrow[i].style.fontSize = window.innerHeight / 21 + "px";
   hlcontent[i].style.paddingLeft = window.innerHeight / 17 + "px";
 }
 
