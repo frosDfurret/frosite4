@@ -13,4 +13,4 @@ var doTitle = setInterval(function() {
   if (i > titleText.length) {
     clearInterval(doTitle);
   }
-}, 80);
+}, 100);

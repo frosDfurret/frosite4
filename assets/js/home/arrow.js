@@ -1,4 +1,3 @@
-
 var homelink = document.getElementsByClassName('homelink');
 var hlarrow = document.getElementsByClassName('hlarrow');
 var hlcontent = document.getElementsByClassName('hlcontent');
@@ -35,6 +34,6 @@ function gotato(e) {
     } else {
       hlarrow[i].style.transform = "rotate(0deg)"
     }
-    setTimeout(function(){window.location = links[e]},500)
+    setTimeout(function(){window.location = links[e]},750)
   }
 }
