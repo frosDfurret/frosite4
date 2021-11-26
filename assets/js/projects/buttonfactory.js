@@ -1,6 +1,6 @@
-const projectTitles = ["aestheticlock", "anonet"];
-const projectHovers = ["A clock, but it's a e s t h e t i c ? (i hate that term)", "Unblock the net. Using proxies from TitaniumNetwork"];
-const projectURL = ["https://aestheticlock.glitch.me", "https://anonet.frosdfurret.xyz"];
+const projectTitles = ["aestheticlock", "anonet","WHS Hack Club"];
+const projectHovers = ["A clock, but it's a e s t h e t i c ? (i hate that term)", "Unblock the net. Using proxies from TitaniumNetwork","The site I made for the WHS Hack Club."];
+const projectURL = ["https://aestheticlock.glitch.me", "https://anonet.frosdfurret.xyz","https://whs-hackclub.frosdfurret.xyz/home"];
 const projectHeight = Math.round(window.innerHeight / 6)
 const projectWidth = Math.round(window.innerWidth / 1.2)
 
