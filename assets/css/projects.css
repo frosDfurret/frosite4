@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400&family=Outfit&display=swap');
 
 #cover {
   min-height: 100%;
@@ -19,7 +20,7 @@ html {
 
 body {
   color: white;
-  text-align: center;
+  text-align:center;
 }
 
 h1 {
@@ -29,16 +30,43 @@ h1 {
 }
 
 .projectbutton {
-  color: white;
+  color: rgba(255,255,255, 1);
   text-decoration: none;
-  font-family: "Bebas Neue";
-  outline-color: white;
-  outline-style: solid;
+  font-family: "Anonymous Pro";
+  //outline-color: rgba(255,255,255,.1);
+  //outline-style: solid;
+  //outline-width: 1px;
   text-shadow: 3px 3px black;
   transition-property: font-size;
   transition-duration: 0.5s;
+  text-align: left;
+  border: none;
+  background-color: red;
 }
 
+
 .projectbutton:hover {
+  cursor: pointer;
+}
+
+#backbutton {
+  color: rgba(255,255,255, 1);
+  text-decoration: none;
+  font-family: "Anonymous Pro";
+  //outline-color: rgba(255,255,255,.1);
+  //outline-style: solid;
+  //outline-width: 1px;
+  text-shadow: 3pt 3pt black;
+  transition-property: font-size;
+  transition-duration: 0.5s;
+  text-align: left;
+  border: none;
+  background: rgb(2,0,36);
+  background: linear-gradient(60deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  position: fixed;
+}
+
+
+#backbutton:hover {
   cursor: pointer;
 }
